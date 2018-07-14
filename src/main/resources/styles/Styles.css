@@ -1,0 +1,18 @@
+.button {
+    -fx-font-weight: bold;
+}
+.square_tab{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 25px;
+       
+}
+.main_menue_full_width{
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.bg1{
+    background-color: bisque;
+    
+}
