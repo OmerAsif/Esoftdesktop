@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="com.mycompany.esoftdesktop.FXMLController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="320" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.esoftdesktop.FXMLController">
    <children>
-      <TextField layoutX="86.0" layoutY="75.0" styleClass="bg1" stylesheets="@../styles/Styles.css" />
+      <TextField layoutX="86.0" layoutY="221.0" promptText="User Id" styleClass="bg1" stylesheets="@../styles/Styles.css" />
+      <PasswordField layoutX="86.0" layoutY="268.0" promptText="Password" />
+      <Button layoutX="85.0" layoutY="313.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Login" />
+      <Button layoutX="164.0" layoutY="313.0" mnemonicParsing="false" onAction="#Exit" prefHeight="26.0" prefWidth="70.0" text="Exit" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="80.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/user_login.png" />
+         </image></ImageView>
    </children>
 </AnchorPane>
